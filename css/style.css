@@ -57,7 +57,7 @@ header {
 }
 
 .img {
-    background-image: url("https://picsum.photos/seed/picsum/250/150");
+    background-image: url("../img/foto.jpg");
     background-size: cover;
     border-radius: 10px;
     position: relative;

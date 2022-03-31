@@ -1,0 +1,66 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMONS */
+body {
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-big {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    width: calc(100% / 6 - 50px);
+    /* height: 100vh - (altezza header + altezza footer); */
+    overflow-y: auto;
+    display: flex;
+}
+
+/* BUTTONS */
+.btn {
+    background-color: #000;
+    border: none;
+    color: #cecece;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.recording {
+    margin-left: 10px;
+}
+
+.fa-shield {
+    color: #67d669;
+}
+
+.pause * {
+    margin-left: 5px;
+}
+
+.view {
+    margin-right: 10px;
+}
+
+.fa-table-cells {
+    margin-right: 5px;
+}
+/* MAIN */
+
+
+/* FOOTER */

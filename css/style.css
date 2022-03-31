@@ -11,16 +11,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-big {
-    width: 100%;
-    display: flex;
-}
-
 .container {
-    width: calc(100% / 6 - 50px);
-    /* height: 100vh - (altezza header + altezza footer); */
+    width: calc(1080px / 6);
+    height: 100vh;
     overflow-y: auto;
     display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
 }
 
 /* BUTTONS */
@@ -61,6 +58,21 @@ header {
     margin-right: 5px;
 }
 /* MAIN */
+.img {
+    background-image: url("https://picsum.photos/seed/picsum/300/200");
+    border-radius: 10px;
+    position: relative;
+}
 
+.name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: #374146;
+}
+
+.fa-microphone-slash {
+    color: #cc3c33;
+}
 
 /* FOOTER */
